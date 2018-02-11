@@ -1,0 +1,31 @@
+{
+  "name": "react-inuitcss",
+  "version": "0.0.1",
+  "description": "inuitcss react components",
+  "main": "build/index.js",
+  "author": {
+    "name": "Steven Bax",
+    "email": "sbax@yourownmood.nl"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "react": "^16.1.1"
+  },
+  "dependencies": {
+    "inuitcss": "^6.0.0-beta.5",
+    "react": "^16.1.1",
+    "webpack": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
